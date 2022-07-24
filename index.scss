@@ -1,0 +1,100 @@
+$primary-color: #F5CECB;
+$secondary-color: #FDEFE8;
+$color-3: #E8745E;
+$color-4: #F3C686;
+
+// navbar
+.theme-color{
+    background-color: $primary-color;
+
+}
+.navbar{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+}
+.navbar-light .navbar-toggler {
+    border: none !important;
+}
+.navbar-brand{
+    color: var($primary-color) !important;
+}
+
+// home
+  
+.home{
+    background-color: $primary-color;
+}
+.profile-name{
+    color: #fff
+}
+
+.profile-image{
+    width: 350px;
+    height: 350px;
+    float: right;
+    border-radius: 50%;
+}
+
+.social-media-link{
+font-size: 2rem;
+}
+
+
+// about
+.about{
+    background-color: $secondary-color;
+}
+
+.about-img{
+    height: 300px;
+    width: 300px;
+    border-radius: 20%;
+}
+
+.box{
+    display: flex;
+    align-items: center;
+}
+
+// skills
+.skills{
+    background-color: $primary-color;
+}
+
+.progress{
+    height: .5rem;
+}
+.progress-bar{
+    background-color: $color-4;
+}
+.skills-card{
+    border-radius: 0.5rem;
+    padding:.5rem;
+    background-color: #fff;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.skills-name{
+    display: flex;
+    align-items: center;
+}
+.skills-icon{
+    font-size: 2rem;
+    margin-right: 1rem;
+}
+.html-icon{
+    color:orangered
+}
+.bootstrap-icon{
+    color:purple
+}
+.add-skill-icon{
+    height: 40px;
+}
+
+
+      
+ 
+// footer
+.footer{
+    background-color: $primary-color;
+}
